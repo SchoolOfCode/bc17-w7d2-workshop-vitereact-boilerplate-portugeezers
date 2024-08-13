@@ -1,6 +1,7 @@
 import './App.css'
-import Header from './components/header'
-import Footer from './components/footer'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
+import Hero from './components/main/hero/hero'
 
 function App() {
 
@@ -11,12 +12,7 @@ function App() {
           <Header />
 
           <main className="site-main">
-            <section className="hero">
-              <img src="resources/hero-mobile.png" />
-              <article>
-                <strong id="discover">Discover the Perfect Fireplace ...</strong><br /><strong>Book consultation: </strong><span id="phone-number">0121 345 6789</span>
-              </article>
-            </section>
+            <Hero/>
 
             <section className="how-it-works">
               <h2>How it works.</h2>
